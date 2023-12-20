@@ -8,7 +8,10 @@ uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
 
 type
-  TForm1 = class(TForm)
+
+  { TForm_Main }
+
+  TForm_Main = class(TForm)
   private
 
   public
@@ -16,7 +19,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  Form_Main: TForm_Main;
 
 implementation
 

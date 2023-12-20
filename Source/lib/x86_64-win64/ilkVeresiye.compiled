@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq -FiC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\lib\x86_64-win64 -FuC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\Form -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\ -FUC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\lib\x86_64-win64\ -FEC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\ -oC:\Users\ilkAdam\Documents\GitHub\ilkVeresiye\Source\ilkVeresiye.exe -dLCL -dLCLwin32 ilkVeresiye.lpr"/>
+</CONFIG>

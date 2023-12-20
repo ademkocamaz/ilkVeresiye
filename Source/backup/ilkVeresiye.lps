@@ -8,24 +8,79 @@
       <Unit>
         <Filename Value="ilkVeresiye.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="2"/>
+        <CursorPos X="20" Y="34"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="unit1.pas"/>
+        <Filename Value="Form\main.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="Form_Main"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <UsageCount Value="20"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="8"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="Form\splash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form_Splash"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Splash"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="3" Y="23"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\osutilsh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="625"/>
+        <CursorPos X="15" Y="640"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1259"/>
+        <CursorPos X="11" Y="1275"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="Form\splash.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="ilkVeresiye.lpr"/>
+        <Caret Line="20" Column="3" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Form\main.pas"/>
+        <Caret Line="13" Column="51"/>
+      </Position>
+      <Position>
+        <Filename Value="ilkVeresiye.lpr"/>
+        <Caret Line="29" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="ilkVeresiye.lpr"/>
+        <Caret Line="29" Column="13"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

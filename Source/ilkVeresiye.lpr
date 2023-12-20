@@ -3,23 +3,33 @@ program ilkVeresiye;
 {$mode objfpc}{$H+}
 
 uses
-  {$IFDEF UNIX}
+ {$IFDEF UNIX}
   cthreads,
-  {$ENDIF}
-  {$IFDEF HASAMIGA}
+      {$ENDIF} {$IFDEF HASAMIGA}
   athreads,
-  {$ENDIF}
+      {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Main
-  { you can add units after this };
+  Forms,
+  SysUtils,
+  Main,
+  splash { you can add units after this };
 
 {$R *.res}
 
 begin
-  RequireDerivedFormResource:=True;
-  Application.Scaled:=True;
-  Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
-  Application.Run;
-end.
+  RequireDerivedFormResource := True;
+  Application.Scaled := True;
+  Application.Initialize();
 
+  Splash.Form_Splash := Splash.TForm_Splash.Create(Application);
+  Splash.Form_Splash.Show();
+  Application.ProcessMessages();
+  Sleep(5000);
+
+
+  Application.CreateForm(TForm_Main, Form_Main);
+
+  Splash.Form_Splash.Close();
+
+  Application.Run();
+end.
